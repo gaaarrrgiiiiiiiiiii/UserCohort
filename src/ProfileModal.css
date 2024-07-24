@@ -1,0 +1,87 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  color: white;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  color: #808080;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tabs button.active {
+  color: #7289da;
+  border-bottom: 2px solid #7289da;
+}
+
+.tab-content {
+  min-height: 200px;
+}
+
+.import-area {
+  border: 2px dashed #333;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.upload-box {
+  cursor: pointer;
+}
+
+.upload-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-button, .import-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: transparent;
+  color: white;
+}
+
+.import-button {
+  background-color: #7289da;
+  color: white;
+}
